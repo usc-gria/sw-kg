@@ -30,9 +30,9 @@ El nombre de la carpeta se construye así:
 * Concatenadlo todo en el mismo orden en el que aparecéis en la lista de miembros (alfabético).
 
 Ejemplo:
-	- Integrante 1: Ana García López → ga 
-	- Integrante 2: Mario Pérez Díaz → pe 
-	- Carpeta del grupo: gape
+* Integrante 1: Ana García López → ga 
+* Integrante 2: Mario Pérez Díaz → pe 
+* Carpeta del grupo: gape
 
 Crear la carpeta
 
