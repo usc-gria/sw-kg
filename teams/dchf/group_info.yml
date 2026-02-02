@@ -1,0 +1,8 @@
+members:
+  - name: "David Chaves Fraga"
+    github: "https://github.com/dachafra"
+
+dataset:
+  name: "Censo de locales, sus actividades y terrazas de hostelería y restauración"
+  url: "https://datos.madrid.es/egob/catalogo/200085-0-censo-locales"
+  description: "Fichero de microdatos del censo de locales y actividades del Ayuntamiento de Madrid, clasificados según su tipo de acceso (puerta de calle o agrupado), situación (abierto, cerrado...) e indicación de la actividad económica ejercida y de las terrazas de hostelería y restauración que aparecen registradas en dicho censo.."
