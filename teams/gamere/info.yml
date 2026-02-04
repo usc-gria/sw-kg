@@ -1,0 +1,12 @@
+members:
+  - name: "Rosa García Cao"
+    github: "https://github.com/usuario"
+  - name: "Manoel Mellid Losada"
+    github: "https://github.com/usuario"
+  - name: "Rocío Rey Calvo"
+    github: "https://github.com/usuario"
+
+dataset:
+  name: "Nombre del dataset"
+  url: "https://enlace-al-dataset"
+  description: "1-2 líneas de qué contiene y para qué lo usaréis."
