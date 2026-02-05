@@ -1,0 +1,12 @@
+members:
+  - name: "Pablo Perez Rodriguez"
+    github: "https://github.com/Veleiroo"
+  - name: "Jaime Jose Zapico Lopez"
+    github: "https://github.com/jaimezl03"
+  -name: "Oscar Padin Devesa"
+    github: "https://github.com/oscarpd13"
+
+dataset:
+  name: "Teatros e auditorios"
+  url: "https://abertos.xunta.gal/catalogo/cultura-ocio-deporte/-/dataset/0305/teatros-auditorios"
+  description: "Dataset de teatros y auditorios en Galicia, con información sobre su ubicación, capacidad, servicios, etc."
