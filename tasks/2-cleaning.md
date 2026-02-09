@@ -38,7 +38,7 @@ Usad Facets / Filters para inspeccionar:
 - inconsistencias tipográficas (mayúsculas/minúsculas, abreviaturas),
 - duplicados.
 
-### Limpieza y normalización
+### 3) Limpieza y normalización
 
 Aplicad transformaciones típicas (según vuestro dataset):
 - Trim / espacios: eliminar espacios al inicio/final.
@@ -48,17 +48,17 @@ Aplicad transformaciones típicas (según vuestro dataset):
 - Conversión de tipos (números, fechas, etc.).
 - Clustering para unificar variantes tipográficas (muy útil para nombres/categorías).  ￼
 
-### Reconciliation
+### 4) Reconciliation
 
 Si vuestro dataset tiene entidades textuales (p. ej., ciudades, países, barrios, organizaciones…), debéis usar Reconcile para enlazarlas contra un servicio (p. ej., Wikidata). Si lo hacéis:
 - indicad qué columna reconciliasteis,
 - qué porcentaje quedó “matched”,
 - añadir una columna con el identificador/URL resultante.
 
-### Exportación del dataset limpio
+### 5) Exportación del dataset limpio
 
 
-### Exportación del JSON de operaciones (obligatorio)
+### 6) Exportación del JSON de operaciones (obligatorio)
 
 Exportad el historial de operaciones para que sea reproducible: En OpenRefine: Undo / Redo → Extract… (o “Export” del historial según versión)
 
