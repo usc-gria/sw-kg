@@ -365,6 +365,7 @@ La version final del KG ya no depende de un enriquecimiento posterior para enlaz
   - `queries/federated_query_2.rq`
 - Script de ejecucion: `src/run_queries.py`
 - Script de visualizacion: `src/app.py`
+- Demo interactiva: `src/streamlit_app.py`
 - Resultados tabulares: `results/query_results/`
 - Figuras: `results/figures/`
 - Mapa HTML: `results/maps/municipalities_map.html`
@@ -419,9 +420,10 @@ Los resultados se guardan en:
 El flujo reproducible de la tarea 6 es:
 
 ```bash
-python3 -m pip install --user rdflib pandas matplotlib SPARQLWrapper
+python3 -m pip install --user rdflib pandas matplotlib SPARQLWrapper streamlit pydeck
 PYTHONDONTWRITEBYTECODE=1 python3 src/run_queries.py
 PYTHONDONTWRITEBYTECODE=1 python3 src/app.py
+streamlit run src/streamlit_app.py
 ```
 
 `src/run_queries.py`:
@@ -439,6 +441,16 @@ PYTHONDONTWRITEBYTECODE=1 python3 src/app.py
 - genera `results/figures/province_spaces_per_million.png`
 - genera `results/figures/top_spaces_by_capacity.png`
 - genera `results/maps/municipalities_map.html`
+
+`src/streamlit_app.py`:
+
+- carga los CSV ya generados por `src/run_queries.py`
+- permite filtrar por provincia, concello, aforo minimo y nombre del espacio
+- muestra un mapa interactivo con los centros del CSV limpio usando sus coordenadas
+- permite cambiar el estilo base del mapa y el criterio de tamano del marcador
+- incluye una vista de detalle por concello con centros, aforos y dato enriquecido
+- incluye una pestana de calidad para ensenar colisiones de URI y resultados SHACL
+- deja consultar y descargar las tablas SPARQL mas utiles del proyecto
 
 ### Resultados principales
 
